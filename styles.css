@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+body{
+    background-color: rgba(128, 128, 128, 0.267);
+    margin: 0;
+    font-family: 'Raleway' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    border-bottom: 1px solid black;
+    width: 100vw;
+}
+
+.header h1{
+    font-size: 2em;
+    margin: 0;
+    color: rgba(255, 166, 0, 0.699);
+}
+.header h5{
+    margin-top: 0;
+    margin-bottom: 2px solid rgba(255, 166, 0, 0.699);
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.btns {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.btns button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: all 1s ease-in-out;
+}
+.btn-population:hover{
+    background-color: white;
+    transition: 1s ease-in-out;
+    color: rgba(255, 166, 0, 0.699);
+}
+.btn-lang:hover {
+    background-color: white;
+    
+    color: black;
+}
+
+.btn-population{
+    background-color: rgba(255, 166, 0, 0.699);
+}
+.btn-lang{
+    background-color: black;
+}
+
+.blue{
+    color: blue;
+    font-weight: bolder;
+}
+.title h3{
+    font-weight: 600;
+}
+
+.chartContainer{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.popChart{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
+
+@media(max-width:920px){
+    
+    .popChart{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1000px){
+    
+    .popChart{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

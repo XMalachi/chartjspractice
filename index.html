@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <title>World Countries Data</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+       
+        <div class="header">
+            <h1>World Countries Data</h1>
+            <h5>Currently, we have 250 countries.</h5>
+        </div>
+     
+
+        <div class="btn-group">
+            <div class="btns">
+                <button class="btn btn-population">POPULATION</button>
+                <button class="btn btn-lang">LANGUAGES</button>
+            </div>
+            <p>Ten most <span class="populate blue">POPULATED COUNTRIES</span> in the world</p>
+        </div>
+
+        <div class="chartContainer">
+            <div class="popChart">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+
+</html>
